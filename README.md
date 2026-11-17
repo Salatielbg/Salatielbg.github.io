@@ -1,27 +1,45 @@
-# AppToDo
+# ✅ AppToDo — Lista de Tarefas em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Aplicação web de gerenciamento de tarefas (*To-Do List*) desenvolvida com **Angular 16** e **TypeScript**, com foco em componentização modular, estilização com SCSS e publicação estática via GitHub Pages.
 
-## Development server
+🔗 **Demo online:** [salatielbg.github.io](https://salatielbg.github.io/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## ⚙️ Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Framework:** Angular 16
+- **Linguagem:** TypeScript
+- **Estilização:** SCSS / HTML5
+- **Deploy:** GitHub Pages (`/docs`)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📁 Estrutura Principal
 
-## Running unit tests
+- `src/app/modules/home/` — Módulo principal com componentes de cabeçalho e lista de tarefas
+- `docs/` — Build de produção publicado no GitHub Pages
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🚀 Como Executar Localmente
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+# Clonar o repositório
+git clone https://github.com/Salatielbg/Salatielbg.github.io.git
+cd Salatielbg.github.io
 
-## Further help
+# Instalar dependências
+npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Iniciar servidor de desenvolvimento
+npx ng serve
+```
+
+Acesse `http://localhost:4200/` no navegador.
+
+---
+
+## 📫 Autor
+
+**Salatiel Bonfim** · [LinkedIn](https://www.linkedin.com/in/salatiel-bonfim/) · [GitHub](https://github.com/Salatielbg)
